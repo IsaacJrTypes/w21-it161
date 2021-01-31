@@ -17,6 +17,7 @@
 #--------------END CONFIG AREA ------------------------#
 ?>
 	<!-- START HTML FORM -->
+    <div class="form-boundry">
 	<form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
 	<div>
 		<label>
@@ -37,6 +38,7 @@
     <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div> 
 	<div>
 		<input type="submit" value="submit" />
-	</div>
+    </div>  
     </form>
+    </div>
 	<!-- END HTML FORM -->
