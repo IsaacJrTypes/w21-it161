@@ -12,16 +12,8 @@ h1 a {
     text-decoration: none;
 }
 
-h2 {
+h2, h3, h4 {
     margin-left: 1em;
-}
-
-h3 {
-    margin-left: 16px;
-}
-
-h4 {
-    margin-left: 16px;
 }
 
 main {
@@ -39,15 +31,21 @@ section {
     width: 65%;
 }
 
+section ol > li {
+    margin-bottom: .25em;
+}
+
 aside {
     float: right;
     width: 34%;
 }
 
-div#citations {
-    position: relative;
-    left: -10px;
-    margin-bottom: 12px;
+aside ol.citations li {
+    margin-bottom: .5em;
+}
+
+aside ul.list li {
+    margin-bottom: .5em;
 }
 
 div#address {
