@@ -22,7 +22,7 @@
    <main>
       <header>
          <h1><a href="index.html">Web Developer Examples and Resources by Isaac Jimenez</a></h1>
-         <nav id="cssmenu" id=>
+         <nav id="cssmenu">
             <ul>
                <li><a href="../index.html"><i class="fa fa-fw fa-institution"></i> WEB110</a></li>
                <li><a href="index.html"><i class="fa fa-fw fa-home"></i> BIG </a></li>
