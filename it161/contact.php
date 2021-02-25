@@ -47,11 +47,11 @@
         //echo loadContact('multiple.php');#demonstrates multiple form elements
 
 	   ?>
-       
+       </div>
      <footer>
       <p><small>&copy; 2021 by <a href="contact.php">Isaac Jimenez</a>, All Rights Reserved ~ <a href="https://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
     </footer>
-  </div>
+ 
      
   <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
      

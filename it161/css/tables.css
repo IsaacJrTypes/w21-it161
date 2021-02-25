@@ -1,11 +1,12 @@
 table {
-  border: 2px solid black;
+  border: 2px solid #000;
   width: 80%;
   border-collapse: collapse;
-  background: #fff
+  margin: auto;
+  background-color: #fff
 }
 tr {
-    vertical-align: center;
+    vertical-align: top;
 }
 td,th {
     border:1px dotted #000;
@@ -27,4 +28,8 @@ table.audience th {
 }
 table.audience tr:nth-child(even) {
     background-color: #f2f2f2;
+}
+caption{
+    text-align: left;
+    margin-left: 2px;
 }

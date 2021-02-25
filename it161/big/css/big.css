@@ -1,0 +1,158 @@
+/*GLOBAL BIG Website Styles*/
+
+html {
+    background-color: #ccc;
+}
+
+div.fullwidth {
+    width: 100%;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+h2 {
+    margin-left: 1em;
+}
+
+h3 {
+    margin-left: 16px;
+}
+
+h4 {
+    margin-left: 16px;
+}
+
+main {
+    background-color: #fff;
+    width: 95%;
+    margin: auto;
+}
+
+p {
+    margin: 16px 15.2px;
+}
+
+section {
+    float: left;
+    width: 65%;
+}
+
+aside {
+    float: right;
+    width: 34%;
+}
+
+div#citations {
+    position: relative;
+    left: -10px;
+    margin-bottom: 12px;
+}
+
+div#address {
+    margin-left: 18px;
+}
+
+footer {
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+
+/* Images */
+div.image-box img {
+    display: block;
+    align-content: center;
+    margin: 0 auto;
+}
+
+/* Gallery Images */
+div.gallery {
+    margin-left: 1.25em;
+}
+
+img.gallery {
+    width: 100%;
+    border: 1px solid black;
+}
+
+figure {
+    display: inline-block;
+    margin: 0.25%;
+}
+
+div.gallery figure figcaption {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* Start EMBED RESPONSIBELY STYLES */
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* END EMBED RESPONSIBELY STYLES */
+
+/* DESKTOP/TABLET CALENDER RULES*/
+.embed-container.agenda-view {
+    display: none;
+}
+
+/*Media DESKTOP/TABLET IMAGE RULES */
+@media all and (min-width: 601px) {
+    .phoneView.image-box {
+        display: none;
+    }
+    .desktopView.image-box {
+        display: block;
+    }
+}
+
+/* MOBILE STYLES */
+
+@media all and (max-width: 600px) {
+    main {
+        width: 100%;
+    }
+
+    section {
+        float: none;
+        width: 100%;
+    }
+
+    aside {
+        float: none;
+        width: 100%;
+    }
+    /* MOBILE IMAGE RULES */
+    .desktopView.image-box {
+        display: none;
+    }
+    .phoneView.image-box {
+        display: block;
+    }
+}
+
+/* CALENDER RULES FOR MOBLE */
+@media all and (max-width: 860px) {
+    /* Show Agenda View Calendar */
+    div.embed-container.agenda-view {
+        display: block;
+    }
+    /* Hide Agenda View Calendar */
+    div.embed-container.month-view {
+        display: none;
+    }
+}

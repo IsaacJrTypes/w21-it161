@@ -19,19 +19,20 @@
 ?>
 
 <!-- START HTML FORM -->
+<div class="form-boundry">
 <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
-<div>
+<div class="name-box">
     <label>
-        Name:<br /><input id="responsive" type="text" name="Name" required="required" placeholder="Full Name (required)" title="Name is required" tabindex="10" size="44" autofocus />
+        Name:<br /><input  type="text" name="Name" required="required" placeholder="Full Name (required)" title="Name is required" tabindex="10" size="35" autofocus />
     </label>
 </div>
-<div>	
-    <label>
-        Email:<br /><input id="responsive" type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" />
+<div class="email-box">
+    <label >
+        Email:<br /><input  type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="35" />
     </label>
 </div>
 <!-- below change the HTML to your form elements - only 'Name' & 'Email' (above) are significant -->
-<div>	
+<div class="hear-box">
     <label>
         How Did You Hear About Us?:<br />
         <select name="How_Did_You_Hear_About_Us?" required="required" title="How You Heard is required" tabindex="30">
@@ -42,10 +43,10 @@
             <option value="A Friend">A Friend</option>
             <option value="Other">Other</option>
         </select>
-    </label>
+    </label>         
 </div>
 
-<div>	
+<div class="hear-fieldset">	
     <fieldset>
         <legend>What Services Are You Interested In?</legend>
         <input type="checkbox" name="Interested_In[]" value="New Website" tabindex="40" /> New Website <br />
@@ -56,7 +57,7 @@
     </fieldset>
 </div>
 
-    <div>	
+    <div class="mail-fieldset">	
     <fieldset>
         <legend>Would you like to join our mailing list?</legend>
         <input type="radio" name="Join_Mailing_List?" value="Yes" 
@@ -65,15 +66,20 @@
         <input type="radio" name="Join_Mailing_List?" value="No" /> No <br />
     </fieldset>
 </div>
-<div>	
+<div>
+    <div class="comment-box">
     <label>
         Comments:<br /><textarea name="Comments" cols="36" rows="4" placeholder="Your comments are important to us!" tabindex="60"></textarea>
     </label>
-</div>	
-<div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
+        </div>
+</div>
+    <div id="phoneCaptcha" class="g-recaptcha" data-sitekey="<?=$siteKey;?>" data-size="compact"></div>
 <div>
+    <div class="button">
     <input type="submit" value="submit" />
+    </div>
 </div>
 </form>
+</div>
 <!-- END HTML FORM -->
 

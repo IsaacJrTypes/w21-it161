@@ -1,10 +1,22 @@
 /* start reCAPTCHA styles */
 		
 		/* writes to small text above reCAPTCHA upon failure */
-        div.form-boundry form{
+        div.form-boundry {
             margin-left: 25px;
+            margin-bottom: 20px;
         }
-    
+        div.namebox {
+            margin-bottom: 5px;
+        }
+        div.emailbox {
+            margin-bottom: 5px;
+        }
+        div.commentbox {
+            margin-bottom: 5px;
+        }
+        div.button {
+            margin-top: 5px;
+        }
         .dateFeedback{
 			font-style:italic;
 			font-size:70%;
