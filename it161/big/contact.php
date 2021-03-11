@@ -43,7 +43,9 @@
       </header>
       <!-- START LEFT COLUMN -->
       <section class="fullwidth">
+        <header>
          <h2 class="subheader-contact">Contact Isaac</h2>
+        </header>
          <?php
         /*
          * Below are 2 different forms to be re-used       
