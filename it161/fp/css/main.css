@@ -20,7 +20,7 @@ img {
 /* End of RESETS */
 
 html {
-    background-color: rgb(100, 96, 131);
+    background-color: #F5F5F5;
 }
 
 body {
@@ -31,14 +31,14 @@ body {
 }
 
 main {
-    background-color: #fff;
-    width: 90%;
+    background-color: #F5F5F5;
+    width: 100%;
     margin: auto;
 }
 
 div.logo-box {
     width: 80px;
-    background: rosybrown;
+   
 }
 
 div.logo-box h1 {
@@ -46,7 +46,7 @@ div.logo-box h1 {
     font-size: 2.5em;
     margin-left: 0.25em;
     margin-bottom: 0.05em;
-    background: green;
+   
 }
 
 div.logo-box h1 a {
@@ -57,23 +57,15 @@ div.logo-box h1 a {
 /* Gallery  */
 
 .grid-container {
-    margin: 2px 0;
+    margin: 1px 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
-    gap: 8px;
-    background: teal;
+    gap: 4px;
+    background: #F5F5F5;
 }
 .grid-container .item img {
     display: block;
     border-radius: 15px;
-}
-
-.grid-container .item.item5 {
-    display: none;
-}
-
-.grid-container .item.item6 {
-    display: none;
 }
 
 /* About Me Section  */
@@ -82,9 +74,10 @@ div.logo-box h1 a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 1px solid #000;
+  
     height: auto;
     width: 100%;
+   
 }
 
 .flex-container1 .about {
@@ -94,13 +87,23 @@ div.logo-box h1 a {
     justify-content: center;
     align-items: center;
     flex-basis: 288.5px;
-    background: chocolate;
+    background: #000;
     padding: 1.5em 2.6em;
     min-height: 240px;
+    color: #F5F5F5;
+    border-radius: 2px;
+    border-radius: 15px;
 }
 
-.flex-container1 .about:last-child {
-    background: gray;
+.flex-container1 .about p {
+    text-align: justify;
+    text-justify: inter-character;
+}
+
+.flex-container1 .about.visual {
+    background: #F5F5F5;
+    border: 2px solid #000;
+    border-radius: 15px;
 }
 
 .flex-container1 .about .profile {
@@ -109,7 +112,7 @@ div.logo-box h1 a {
     align-items: center;
     width: 200px;
     height: 200px;
-    border: 3px solid black;
+    border: 3px solid #000;
     border-radius: 10px;
     background-image: url(https://source.unsplash.com/random/169x134);
     background-repeat: no-repeat;
@@ -121,16 +124,16 @@ div.logo-box h1 a {
 .flex-container2 {
     display: flex;
     justify-content: space-around;
-    background: burlywood;
-    border: 1px solid #000;
+    background: #F5F5F5;
+  
     height: 1.5em;
-    margin: 10px 0;
+    margin: 20px 0 10px 0;
 }
 
 .flex-container2 .line-box {
     display: flex;
-    background: crimson;
-    border-bottom: 2px solid black;
+    background: #F5F5F5;
+    border-bottom: 2px solid #000;
     height: 0.75em;
     width: 30%;
 }
@@ -140,8 +143,8 @@ div.logo-box h1 a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: burlywood;
-    border: 1px solid #000;
+    background: #F5F5F5;
+  
 }
 
 .flex-container3 .link-btn {
@@ -152,20 +155,28 @@ div.logo-box h1 a {
     margin: 0.75em;
     width: 175px;
     height: 155px;
-    background: darkcyan;
-    border: 3px solid black;
+    background: #F5F5F5;
+    border: 3px solid #000;
     border-radius: 10px;
     background-image: url(https://source.unsplash.com/random/169x134);
     background-repeat: no-repeat;
     background-size: cover;
+    text-shadow: rgb(63, 63, 61) 1px 0 10px;
 }
 
 .flex-container3 .link-btn a {
     padding: 2.2em 1.3em;
     text-decoration: none;
-    color: white;
+    color: #F5F5F5;
     font-size: 1.5em;
     text-align: center;
+}
+
+/* Service Page Sections  */
+
+.flex-container1 {
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
 }
 
 /* Footer  */
@@ -175,9 +186,11 @@ div.logo-box h1 a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: burlywood;
-    border: 1px solid #000;
-    margin-top: 10px;
+    background: #000;
+    margin-top: 1px;
+    border-radius: 15px;
+    background-color: #000000;
+background-image: linear-gradient(0deg, #000000 95%, #414141 99%);
 }
 
 .flex-container4 .footer-link {
@@ -188,9 +201,9 @@ div.logo-box h1 a {
     margin: 0.5em;
     width: 175px;
     height: 100px;
-    color: whitesmoke;
-    background: darkcyan;
-    border: 1px solid black;
+    color: #F5F5F5;
+    
+  
 }
 
 .footer-link p.social {
@@ -219,18 +232,35 @@ div.logo-box h1 a {
     text-align: center;
 }
 .footer-link a {
-    color: white;
+    color: #F5F5F5;
 }
 
 /* Media Inquiry */
 
-/* Gallery Tablet-Desktop Breakpoint */
-@media (min-width: 643px) {
-    .grid-container .item.item5 {
-        display: block;
-    }
 
-    .grid-container .item.item6 {
-        display: block;
+/*  Lrg Phone/ Small Tablet Breakpoint */
+@media screen and (min-width: 578px) {
+    main {
+        width: 90%;
+    }
+}
+
+/* Service Page Tablet-Desktop Breakpoint */
+@media screen and (min-width: 643px) {
+    .flex-container1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+    .flex-container1.video-section {
+        flex-direction: row-reverse;
+    }
+}
+
+/* Width Desktop Breakpoint */
+@media screen and (min-width: 968px) {
+    main {
+        width: 85%;
     }
 }

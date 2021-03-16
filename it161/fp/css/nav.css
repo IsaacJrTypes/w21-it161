@@ -17,6 +17,7 @@
 }
 #cssmenu {
   border: 2px solid black;
+  border-radius: 3px;
   width: 100%;
 }
 #cssmenu:after,
@@ -33,7 +34,7 @@
 }
 #cssmenu {
   font-family: 'Roboto', sans-serif, 'Open Sans';
-  background: #ffffff;
+  background: #F5F5F5;
 }
 #cssmenu > ul > li {
   float: left;
@@ -138,7 +139,7 @@
   text-decoration: none;
   color: #000000;
   font-weight: 400;
-  background: #ffffff;
+  background: #F5F5F5;
 }
 #cssmenu ul ul li:last-child > a,
 #cssmenu ul ul li.last-item > a {
@@ -277,7 +278,7 @@
   border: 0;
   height: 2px;
   width: 15px;
-  background: #ffffff;
+  background: #F5F5F5;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -286,7 +287,7 @@
 }
 #cssmenu.small-screen #menu-button.menu-opened:before {
   top: 23px;
-  background: #ffffff;
+  background: #F5F5F5;
   width: 15px;
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -306,7 +307,7 @@
   cursor: pointer;
 }
 #cssmenu.small-screen .submenu-button.submenu-opened {
-  background: #ffffffe0;
+  background: #F5F5F5;
 }
 #cssmenu.small-screen ul ul .submenu-button {
   height: 34px;
