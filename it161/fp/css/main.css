@@ -20,7 +20,7 @@ img {
 /* End of RESETS */
 
 html {
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
 }
 
 body {
@@ -31,14 +31,13 @@ body {
 }
 
 main {
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
     width: 100%;
     margin: auto;
 }
 
 div.logo-box {
     width: 80px;
-   
 }
 
 div.logo-box h1 {
@@ -46,12 +45,15 @@ div.logo-box h1 {
     font-size: 2.5em;
     margin-left: 0.25em;
     margin-bottom: 0.05em;
-   
 }
 
 div.logo-box h1 a {
     color: #000;
     text-decoration: none;
+}
+
+div.subheader-box {
+    margin: 1em 0.75em;
 }
 
 /* Gallery  */
@@ -61,7 +63,7 @@ div.logo-box h1 a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
     gap: 4px;
-    background: #F5F5F5;
+    background: #f5f5f5;
 }
 .grid-container .item img {
     display: block;
@@ -74,10 +76,9 @@ div.logo-box h1 a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  
+
     height: auto;
     width: 100%;
-   
 }
 
 .flex-container1 .about {
@@ -90,7 +91,7 @@ div.logo-box h1 a {
     background: #000;
     padding: 1.5em 2.6em;
     min-height: 240px;
-    color: #F5F5F5;
+    color: #f5f5f5;
     border-radius: 2px;
     border-radius: 15px;
 }
@@ -101,7 +102,7 @@ div.logo-box h1 a {
 }
 
 .flex-container1 .about.visual {
-    background: #F5F5F5;
+    background: #f5f5f5;
     border: 2px solid #000;
     border-radius: 15px;
 }
@@ -124,15 +125,15 @@ div.logo-box h1 a {
 .flex-container2 {
     display: flex;
     justify-content: space-around;
-    background: #F5F5F5;
-  
+    background: #f5f5f5;
+
     height: 1.5em;
     margin: 20px 0 10px 0;
 }
 
 .flex-container2 .line-box {
     display: flex;
-    background: #F5F5F5;
+    background: #f5f5f5;
     border-bottom: 2px solid #000;
     height: 0.75em;
     width: 30%;
@@ -143,8 +144,7 @@ div.logo-box h1 a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: #F5F5F5;
-  
+    background: #f5f5f5;
 }
 
 .flex-container3 .link-btn {
@@ -155,7 +155,7 @@ div.logo-box h1 a {
     margin: 0.75em;
     width: 175px;
     height: 155px;
-    background: #F5F5F5;
+    background: #f5f5f5;
     border: 3px solid #000;
     border-radius: 10px;
     background-image: url(https://source.unsplash.com/random/169x134);
@@ -167,7 +167,7 @@ div.logo-box h1 a {
 .flex-container3 .link-btn a {
     padding: 2.2em 1.3em;
     text-decoration: none;
-    color: #F5F5F5;
+    color: #f5f5f5;
     font-size: 1.5em;
     text-align: center;
 }
@@ -190,7 +190,7 @@ div.logo-box h1 a {
     margin-top: 1px;
     border-radius: 15px;
     background-color: #000000;
-background-image: linear-gradient(0deg, #000000 95%, #414141 99%);
+    background-image: linear-gradient(0deg, #000000 95%, #414141 99%);
 }
 
 .flex-container4 .footer-link {
@@ -201,9 +201,7 @@ background-image: linear-gradient(0deg, #000000 95%, #414141 99%);
     margin: 0.5em;
     width: 175px;
     height: 100px;
-    color: #F5F5F5;
-    
-  
+    color: #f5f5f5;
 }
 
 .footer-link p.social {
@@ -232,11 +230,10 @@ background-image: linear-gradient(0deg, #000000 95%, #414141 99%);
     text-align: center;
 }
 .footer-link a {
-    color: #F5F5F5;
+    color: #f5f5f5;
 }
 
 /* Media Inquiry */
-
 
 /*  Lrg Phone/ Small Tablet Breakpoint */
 @media screen and (min-width: 578px) {
@@ -250,9 +247,8 @@ background-image: linear-gradient(0deg, #000000 95%, #414141 99%);
     .flex-container1 {
         flex-direction: row;
         flex-wrap: wrap;
-
     }
-    
+
     .flex-container1.video-section {
         flex-direction: row-reverse;
     }
@@ -262,5 +258,13 @@ background-image: linear-gradient(0deg, #000000 95%, #414141 99%);
 @media screen and (min-width: 968px) {
     main {
         width: 85%;
+    }
+}
+
+/* Width LRG Desktop Breakpoint */
+@media screen and (min-width: 1320px) {
+    body {
+        width: 1320px;
+        margin: auto;
     }
 }

@@ -10,8 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/forms.css" />
     <!-- jQuary-->
-    <script src="http://code.jquery.com/jquery-latest.min.js" ></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <!-- Menu Maker Plugin -->
     <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js"></script>
 
@@ -39,27 +40,30 @@
                     <li><a href="contact.php"> Contact </a></li>
                 </ul>
             </nav>
-
-
         </header>
-        <h2 class="subheader"> Gallery </h2>
-
-        <!-- START Gallery -->
-        <div class="grid-container gallery">
-
-            <div class="item item1"><a href="#"><img src="https://source.unsplash.com/random/300x400" alt=""></a></div>
-            <div class="item item2"><a href="#"><img src="https://source.unsplash.com/random/300x400" alt=""></a></div>
-            <div class="item item3"><a href="#"><img src="https://source.unsplash.com/random/300x400" alt=""></a></div>
-            <div class="item item4"><a href="#"><img src="https://source.unsplash.com/random/300x400" alt=""></a></div>
-            <div class="item item5"><a href="#"><img src="https://source.unsplash.com/random/300x400" alt=""></a></div>
-            <div class="item item6"><a href="#"><img src="https://source.unsplash.com/random/300x400" alt=""></a></div>
+        <div class="subheader-box">
+        <h2 class="subheader page">Contact Karen</h2>
         </div>
+     <!-- START Contact Form -->
+     <?php
+        /*
+         * Below are 2 different forms to be re-used       
+         * 
+         * Only use one at a time, comment out the other!       
+         *
+         */
+    
+        include 'includes/contact_include.php'; #site keys & code here
+    
+        $toAddress = "jimenez.isaac.jr@gmail.com";  //place your/your client's email address here
+        $toName = "Isaac"; //place your client's name here
+        $website = "Contact Form Test";  //place NAME of your client's website
 
-        <!-- END Gallery -->
+        //echo loadContact('simple.php');#demonstrates a simple contact form
+        echo loadContact('multiple.php');#demonstrates multiple form elements
 
-       
-        <!-- End Service Section -->
-
+	   ?>
+     <!-- End Contact Form -->
         <footer>
             <div class="flex-container4">
                 <div class="footer-link">
