@@ -1,0 +1,266 @@
+/*GLOBAL Website Styles*/
+/* CSS Reset */
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+}
+
+img {
+    width: 100%;
+}
+
+/* End of RESETS */
+
+html {
+    background-color: #F5F5F5;
+}
+
+body {
+    display: block;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+}
+
+main {
+    background-color: #F5F5F5;
+    width: 100%;
+    margin: auto;
+}
+
+div.logo-box {
+    width: 80px;
+   
+}
+
+div.logo-box h1 {
+    width: 70px;
+    font-size: 2.5em;
+    margin-left: 0.25em;
+    margin-bottom: 0.05em;
+   
+}
+
+div.logo-box h1 a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Gallery  */
+
+.grid-container {
+    margin: 1px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+    gap: 4px;
+    background: #F5F5F5;
+}
+.grid-container .item img {
+    display: block;
+    border-radius: 15px;
+}
+
+/* About Me Section  */
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    height: auto;
+    width: 100%;
+   
+}
+
+.flex-container1 .about {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 288.5px;
+    background: #000;
+    padding: 1.5em 2.6em;
+    min-height: 240px;
+    color: #F5F5F5;
+    border-radius: 2px;
+    border-radius: 15px;
+}
+
+.flex-container1 .about p {
+    text-align: justify;
+    text-justify: inter-character;
+}
+
+.flex-container1 .about.visual {
+    background: #F5F5F5;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+
+.flex-container1 .about .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    background-image: url(https://source.unsplash.com/random/169x134);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Service Section  */
+
+.flex-container2 {
+    display: flex;
+    justify-content: space-around;
+    background: #F5F5F5;
+  
+    height: 1.5em;
+    margin: 20px 0 10px 0;
+}
+
+.flex-container2 .line-box {
+    display: flex;
+    background: #F5F5F5;
+    border-bottom: 2px solid #000;
+    height: 0.75em;
+    width: 30%;
+}
+
+.flex-container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #F5F5F5;
+  
+}
+
+.flex-container3 .link-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.75em;
+    width: 175px;
+    height: 155px;
+    background: #F5F5F5;
+    border: 3px solid #000;
+    border-radius: 10px;
+    background-image: url(https://source.unsplash.com/random/169x134);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: rgb(63, 63, 61) 1px 0 10px;
+}
+
+.flex-container3 .link-btn a {
+    padding: 2.2em 1.3em;
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* Service Page Sections  */
+
+.flex-container1 {
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+/* Footer  */
+
+.flex-container4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #000;
+    margin-top: 1px;
+    border-radius: 15px;
+    background-color: #000000;
+background-image: linear-gradient(0deg, #000000 95%, #414141 99%);
+}
+
+.flex-container4 .footer-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0.5em;
+    width: 175px;
+    height: 100px;
+    color: #F5F5F5;
+    
+  
+}
+
+.footer-link p.social {
+    font-size: 1.5em;
+}
+
+.footer-link div.link {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.footer-link div.link a {
+    font-size: 1.1em;
+    text-decoration: none;
+    padding: 0.4em 0.75em;
+}
+
+.footer-link p.contact a {
+    font-size: 1.75em;
+    text-decoration: none;
+    padding: 0.5em 0.2em;
+}
+
+.footer-link p.copyright {
+    text-align: center;
+}
+.footer-link a {
+    color: #F5F5F5;
+}
+
+/* Media Inquiry */
+
+
+/*  Lrg Phone/ Small Tablet Breakpoint */
+@media screen and (min-width: 578px) {
+    main {
+        width: 90%;
+    }
+}
+
+/* Service Page Tablet-Desktop Breakpoint */
+@media screen and (min-width: 643px) {
+    .flex-container1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+    .flex-container1.video-section {
+        flex-direction: row-reverse;
+    }
+}
+
+/* Width Desktop Breakpoint */
+@media screen and (min-width: 968px) {
+    main {
+        width: 85%;
+    }
+}
