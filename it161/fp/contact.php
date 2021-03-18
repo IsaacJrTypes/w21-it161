@@ -70,15 +70,13 @@
                     <p class="social"> Follow </p>
 
                     <div class="link">
-                        <a href="#" target="_blank"> Instagram </a>
-                        <a href="#" target="_blank"> Youtube </a>
-
-
+                        <a href="https://www.instagram.com/quirozknows/" title="Link to Instagram" target="_blank"> <img src="images/icon-instagram.png" alt="instagram icon"></a>
+                        <a href="https://www.youtube.com/channel/UC_6OMebKUkacYCnlb6rq5IQ" title="Link to Youtube"  target="_blank"> <img src="images/icon-youtube.png" alt="Youtube icon"> </a>
                     </div>
 
                 </div>
                 <div class="footer-link">
-                    <p class="contact"><a href="#"> Contact </a></p>
+                    <p class="contact"><a href="contact.php"> Contact </a></p>
                 </div>
                 <div class="footer-link">
                     <p class="copyright"><small>&copy; 2021 by <a href="contact.php">Isaac Jimenez,<br></a> All Rights
