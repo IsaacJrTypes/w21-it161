@@ -1,4 +1,3 @@
-
 <?php
 /**
  * multiple.php is a postback application designed to provide a 
