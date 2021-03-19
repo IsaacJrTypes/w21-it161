@@ -32,7 +32,7 @@
 			<!-- below change the HTML to your form elements - only 'Name' & 'Email' (above) are significant -->
 			<div class="commentbox">	
 				<label>
-					Comments:<br /><textarea name="Comments" cols="36" rows="4" placeholder="Your comments are important to us!" tabindex="30"></textarea>
+					Comments:<br /><textarea name="Comments" cols="36" rows="4" placeholder="Your voice are important to us!" tabindex="30"></textarea>
 				</label>
 			</div>	
 			<div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div> 
