@@ -2,7 +2,6 @@
 
 /* writes to small text above reCAPTCHA upon failure */
 
-
 div.form-boundry {
     margin-left: 23px;
     margin-bottom: 20px;
@@ -22,7 +21,7 @@ div.comment-box {
     margin: 8px 0;
 }
 div.button {
-    margin-top: .5em;
+    margin-top: 0.5em;
 }
 .dateFeedback {
     font-style: italic;
@@ -60,3 +59,17 @@ legend {
     border-right: 1px solid #ccc;
 }
 /* end reCAPTCHA styles */
+
+/* Contact Feedback Styles */
+.subheader-box {
+    display: none;
+}
+
+.contact-feedback {
+    margin: 5em 0.75em;
+    min-height: 15em;
+}
+
+.contact-feedback p {
+    margin: 0.75em 0;
+}
