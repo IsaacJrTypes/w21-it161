@@ -31,6 +31,7 @@ body {
 }
 
 main {
+    position: relative;
     background-color: #f5f5f5;
     width: 100%;
     margin: auto;
@@ -106,6 +107,7 @@ div.subheader-box {
 .flex-container1 .about p {
     text-align: justify;
     text-justify: inter-character;
+
 }
 
 .flex-container1 .about .profile {
@@ -139,8 +141,12 @@ div.subheader-box {
     justify-content: space-around;
     background: #f5f5f5;
 
-    height: 1.5em;
+    max-height: 1.5em;
     margin: 20px 0 10px 0;
+}
+
+.flex-container2 .service-box h3 {
+    font-size: 1.25em;
 }
 
 .flex-container2 .line-box {
@@ -273,6 +279,7 @@ div.subheader-box {
 
 /*  Lrg Phone/ Small Tablet Breakpoint */
 @media screen and (min-width: 578px) {
+
     main {
         width: 90%;
     }
