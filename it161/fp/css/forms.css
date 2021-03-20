@@ -30,7 +30,7 @@ div.button {
     color: #f00;
 }
 input:required {
-    border: 1px solid red;
+    border: 1px solid #f00;
 }
 
 input:optional,

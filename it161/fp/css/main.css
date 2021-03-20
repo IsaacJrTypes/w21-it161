@@ -56,6 +56,28 @@ div.subheader-box {
     margin: 1em 0.75em;
 }
 
+/* Button Styles*/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    z-index: 1000;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
 /* Gallery  */
 
 .grid-container {
@@ -171,19 +193,18 @@ div.subheader-box {
     background: #f5f5f5;
     border: 3px solid #000;
     border-radius: 10px;
-    background-image: url('../images/photo-unsplash.jpg');
+    background-image: url("../images/photo-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-shadow: rgb(63, 63, 61) 1px 0 10px;
-    
 }
 
 .flex-container3 .link-btn:nth-child(2) {
-    background-image: url('../images/video-unsplashed.jpg');
+    background-image: url("../images/video-unsplashed.jpg");
 }
 
 .flex-container3 .link-btn:nth-last-child(1) {
-    background-image: url('../images/events-unsplash.jpg');
+    background-image: url("../images/events-unsplash.jpg");
 }
 
 .flex-container3 .link-btn a {
@@ -210,9 +231,8 @@ div.subheader-box {
 }
 
 .flex-container1.video-section {
-        flex-direction: row-reverse;
-    }
-
+    flex-direction: row-reverse;
+}
 
 /* Footer  */
 
