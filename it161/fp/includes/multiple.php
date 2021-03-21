@@ -49,7 +49,7 @@
 <div>
     <div class="comment-box">
     <label>
-    What Services Are You Interested In?<br /><textarea name="Comments" cols="36" rows="4" placeholder="Your comments are important to us!" tabindex="60"></textarea>
+    What Services Are You Interested In?<br /><textarea name="Comments" cols="36" rows="4" placeholder="Type your ideas or questions here!" tabindex="60"></textarea>
     </label>
         </div>
 </div>

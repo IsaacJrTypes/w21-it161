@@ -41,7 +41,7 @@ div.logo-box {
 }
 
 div.logo-box h1 {
-    width: 70px;
+    
     font-size: 2.5em;
     margin-left: 0.25em;
     margin-bottom: 0.05em;
@@ -222,6 +222,12 @@ div.subheader-box {
     flex-wrap: wrap-reverse;
 }
 
+
+.flex-container1 .about h4 {
+    margin: .25em 0;
+    align-self: flex-start;
+}
+
 .flex-container1.events-section {
     margin-bottom: 0.75em;
 }
@@ -232,6 +238,10 @@ div.subheader-box {
 
 .flex-container1.video-section {
     flex-direction: row-reverse;
+}
+
+.flex-container1.events-section .about a {
+    color: whitesmoke;
 }
 
 /* Footer  */
