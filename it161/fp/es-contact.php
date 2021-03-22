@@ -22,27 +22,27 @@
 
 <body>
     <main>
-        <header>
+    <header>
             <div class="logo-box">
-                <h1><a href="template.html"> KQ </a></h1>
+                <h1><a href="es-template.html"> KQ </a></h1>
             </div>
 
             <nav id="cssmenu">
                 <ul>
-                    <li><a href="#"> Language </a>
+                    <li><a href="#"> Idioma </a>
                         <ul>
-                            <li><a href="#"> English </a></li>
-                            <li><a href="es-contact.php"> Español </a></li>
+                            <li><a href="contact.php"> English </a></li>
+                            <li><a href="#"> Español </a></li>
                         </ul>
-                    <li><a href="template.html"> About Me </a></li>
-                    <li><a href="services.html"> Services </a></li>
-                    <li><a href="gallery.html"> Gallery </a></li>
-                    <li><a href="contact.php"> Contact </a></li>
+                    <li><a href="es-template.html#about"> Sobre Karen </a></li>
+                    <li><a href="es-services.html"> Servicios </a></li>
+                    <li><a href="es-gallery.html"> Galería </a></li>
+                    <li><a href="es-contact.php"> Contacto </a></li>
                 </ul>
             </nav>
         </header>
         <div class="subheader-box">
-        <h2 class="subheader page">Contact Karen</h2>
+        <h2 class="subheader page">Contácta a Karen</h2>
         </div>
      <!-- START Contact Form -->
      <?php
@@ -60,27 +60,28 @@
         $website = "Contact Form Test";  //place NAME of your client's website
 
         //echo loadContact('simple.php');#demonstrates a simple contact form
-        echo loadContact('multiple.php');#demonstrates multiple form elements
+        echo loadContact('es-multiple.php');#demonstrates multiple form elements
 
 	   ?>
      <!-- End Contact Form -->
-        <footer>
+     <footer>
             <div class="flex-container4">
                 <div class="footer-link">
-                    <p class="social"> Follow </p>
+                    <p class="social"> Sígueme </p>
 
                     <div class="link">
-                        <a href="https://www.instagram.com/quirozknows/" title="Link to Instagram" target="_blank"> <img src="images/icon-instagram.png" alt="instagram icon"></a>
-                        <a href="https://www.youtube.com/channel/UC_6OMebKUkacYCnlb6rq5IQ" title="Link to Youtube"  target="_blank"> <img src="images/icon-youtube.png" alt="Youtube icon"> </a>
+                        <a href="https://www.instagram.com/quirozknows/" title="Link to Instagram" target="_blank"> <img
+                                src="images/icon-instagram.png" alt="instagram icon"></a>
+                        <a href="https://www.youtube.com/channel/UC_6OMebKUkacYCnlb6rq5IQ" title="Link to Youtube"
+                            target="_blank"> <img src="images/icon-youtube.png" alt="Youtube icon"> </a>
                     </div>
 
                 </div>
                 <div class="footer-link">
-                    <p class="contact"><a href="contact.php"> Contact </a></p>
+                    <p class="contact"><a href="es-contact.php"> Contacto </a></p>
                 </div>
                 <div class="footer-link">
-                    <p class="copyright"><small>&copy; 2021 by <a href="contact.php">Isaac Jimenez,<br></a> All Rights
-                            Reserved<br> ~ <a href="https://validator.w3.org/check/referer" target="_blank">Valid
+                    <p class="copyright"><small>&copy; 2021 by <a href="contact.php">Isaac Jimenez,<br></a> Reservados Todos Los Derechos<br> ~ <a href="https://validator.w3.org/check/referer" target="_blank">Valid
                                 HTML</a> ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer"
                                 target="_blank">Valid
                                 CSS</a></small></p>
