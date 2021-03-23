@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>About Karen Quiroz</title>
+    <title>Forma De Contacto</title>
     <meta name="robots" content="noindex,nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
@@ -70,9 +70,9 @@
                     <p class="social"> Sígueme </p>
 
                     <div class="link">
-                        <a href="https://www.instagram.com/quirozknows/" title="Link to Instagram" target="_blank"> <img
+                        <a href="https://www.instagram.com/quirozknows/" title="Enlace a Instagram" target="_blank"> <img
                                 src="images/icon-instagram.png" alt="instagram icon"></a>
-                        <a href="https://www.youtube.com/channel/UC_6OMebKUkacYCnlb6rq5IQ" title="Link to Youtube"
+                        <a href="https://www.youtube.com/channel/UC_6OMebKUkacYCnlb6rq5IQ" title="Enlace a Youtube"
                             target="_blank"> <img src="images/icon-youtube.png" alt="Youtube icon"> </a>
                     </div>
 

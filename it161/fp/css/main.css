@@ -56,6 +56,12 @@ div.subheader-box {
     margin: 1em 0.75em;
 }
 
+/* Enlarges Spanish text*/
+
+p#es-text {
+    font-size: 1.2em;
+}
+
 /* Button Styles*/
 
 #myBtn {
@@ -159,7 +165,7 @@ div.subheader-box {
     display: flex;
     justify-content: space-around;
     background: #f5f5f5;
-
+    font-size: 1.4em;
     height: 1.5em;
     margin: 20px 0 10px 0;
 }
