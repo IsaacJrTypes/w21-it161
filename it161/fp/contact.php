@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <title>About Karen Quiroz</title>
@@ -64,14 +64,16 @@
 
 	   ?>
      <!-- End Contact Form -->
-        <footer>
+     <footer>
             <div class="flex-container4">
                 <div class="footer-link">
                     <p class="social"> Follow </p>
 
                     <div class="link">
-                        <a href="https://www.instagram.com/quirozknows/" title="Link to Instagram" target="_blank"> <img src="images/icon-instagram.png" alt="instagram icon"></a>
-                        <a href="https://www.youtube.com/channel/UC_6OMebKUkacYCnlb6rq5IQ" title="Link to Youtube"  target="_blank"> <img src="images/icon-youtube.png" alt="Youtube icon"> </a>
+                        <a href="https://www.instagram.com/quirozknows/" title="Link to Instagram" target="_blank"> <img
+                                src="images/icon-instagram.png" alt="instagram icon"></a>
+                        <a href="https://www.youtube.com/channel/UC_6OMebKUkacYCnlb6rq5IQ" title="Link to Youtube"
+                            target="_blank"> <img src="images/icon-youtube.png" alt="Youtube icon"> </a>
                     </div>
 
                 </div>
@@ -83,11 +85,11 @@
                             Reserved<br> ~ <a href="https://validator.w3.org/check/referer" target="_blank">Valid
                                 HTML</a> ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer"
                                 target="_blank">Valid
-                                CSS</a></small></p>
+                                CSS</a><br><a href="disclaimer.html">Disclaimer</a></small></p>
+                                
                 </div>
             </div>
         </footer>
-    </main>
 
 </body>
 
