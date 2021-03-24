@@ -34,7 +34,7 @@
 <!-- below change the HTML to your form elements - only 'Name' & 'Email' (above) are significant -->
 <div class="hear-box">
     <label>
-        How Did You Hear About Us?:<br />
+        How Did You Hear About Karen?:<br />
         <select name="How_Did_You_Hear_About_Us?" required="required" title="How You Heard is required" tabindex="30">
             <option value="">Choose How You Heard</option>
             <option value="Social Media">Social Media</option>
