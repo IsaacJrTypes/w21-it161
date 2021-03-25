@@ -63,7 +63,7 @@
   text-transform: uppercase;
 }
 #cssmenu > ul > li:hover > a {
-  color: #413d3d;
+  color: #555252;
 }
 #cssmenu > ul > li.has-sub > a {
   padding-right: 30px;
@@ -224,7 +224,7 @@
 }
 #cssmenu.small-screen ul ul li:hover > a,
 #cssmenu.small-screen ul ul li.active > a {
-  color: #4b4747;
+  color: #555252;
 }
 #cssmenu.small-screen ul ul,
 #cssmenu.small-screen ul ul ul,
