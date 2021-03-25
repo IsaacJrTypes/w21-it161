@@ -56,11 +56,6 @@ div.subheader-box {
     margin: 1em 0.75em;
 }
 
-/* Enlarges Spanish text*/
-
-p#es-text {
-    font-size: 1.2em;
-}
 
 /* Button Styles*/
 
@@ -134,7 +129,13 @@ p#es-text {
 .flex-container1 .about p {
     text-align: justify;
     text-justify: inter-character;
+    font-size: 1em;
 }
+
+.flex-container1 .about p.es-text {
+    font-size: 1.2em;
+}
+
 
 .flex-container1 .about .profile {
     display: flex;

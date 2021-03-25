@@ -4,7 +4,7 @@
     <p>Talk to you soon!!</p>
 </div> 
 <div class="contact-feedback">
-    <h2>¡Recibivimos to mesaje!</h2>
+    <h2>¡Recibivimos tu mesaje!</h2>
     <p>Responderé por correo electrónico dentro de las 48 horas.</p>
     <p>¡Hablamos pronto!</p>
 </div> 
